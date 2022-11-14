@@ -1,0 +1,346 @@
+body {
+    width: 100vw;
+    margin: 0%;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    min-height: 64px;
+    background-color: #012d6c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+}
+
+.navbar img {
+    position: absolute;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    padding: 5px;
+    left: 20px;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 1%;
+}
+
+#core-events-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive {
+    width: 10%;
+    padding-top: 1.5%;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.archive:hover {
+    background-color: #def2f1;
+    color: #012d6c;
+}
+
+.archive-content {
+    width: 50%;
+    height: 100%;
+    background-color: #def2f1;
+    display: flex;
+    flex-direction: row;
+    transition: 1s ease-in-out;
+    position: relative;
+    right: -25%;
+    overflow: hidden;
+}
+
+#timeline {
+    text-align: center;
+    padding: 1%;
+    font-size: 56px;
+    height: 10vw;
+    color: #012d6c;
+    background-color: #def2f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    background-color: #012d6c;
+    width: 50%;
+    height: 10%;
+    color: white;
+    font-size: xx-large;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 8px;
+}
+
+#under-construction {
+    width: 100vw;
+    height: 2vh;
+    background-color: #faff00;
+    opacity: 1;
+    background-image: linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, #000000 25%, transparent 25%), linear-gradient(45deg, #000000 25%, transparent 25%), linear-gradient(315deg, #000000 25%, #faff00 25%);
+    background-position: 4px 0, 4px 0, 0 0, 0 0;
+    background-size: 8px 8px;
+    background-repeat: repeat;
+}
+
+
+/*
+.events {
+    width: 100%;
+    height: 120%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    min-width: 350px;
+    min-height: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0%;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    height: 30%;
+    min-width: 250px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #def2f1;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 10px #012d6c;
+}
+
+.card .image {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+}
+
+.card-contents {
+    width: 50%;
+    height: 100%;
+    font-size: large;
+    box-sizing: border-box;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-contents h2 {
+    padding-bottom: 5%;
+    height: 10%;
+    border-bottom-style: solid;
+    border-bottom-color: #012d6c;
+}
+
+.card-contents p {
+    min-height: 60px;
+    height: 70%;
+    padding: 2%;
+    text-align: justify;
+}
+
+
+
+#others {
+    width: 90%;
+    height: 50%;
+    position: relative;
+    left: 5%;
+    min-height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#other-card {
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#other-card .image {
+    width: 90%;
+    height: 50%;
+    padding: 4%;
+}
+
+#other-card .card-contents {
+    width: 100%;
+    height: 50%;
+    font-size: medium;
+}
+
+#other-card h2 {
+    height: 17%;
+}
+
+#other-card .image {
+    left: 5%;
+}
+
+#other-card p,
+a {
+    padding: 1%;
+}
+
+#other-card a {
+    padding-bottom: 5%;
+}
+
+.card a {
+    box-sizing: border-box;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: #012d6c;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+}
+
+.card a {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+
+.card a::after {
+    display: flex;
+    content: '\f178';
+    font-family: FontAwesome;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    left: 10%;
+    font-size: 18px;
+    opacity: 0;
+}
+
+.card a:hover {
+    text-indent: -30px;
+}
+
+.card a:hover::after {
+    opacity: 1;
+    text-indent: 0px;
+}
+
+#other-card a {
+    left: 25%
+}
+
+*/
+
+@media (max-width:426px) {
+    #timeline {
+        height: 5%;
+        padding-bottom: 10%;
+        margin-bottom: 3%;
+    }
+    .archive {
+        padding-top: 3%;
+    }
+    .events {
+        width: 70%;
+        left: 15%;
+        min-height: 1200px;
+    }
+    .card {
+        min-height: 350px;
+        width: 85%;
+        flex-direction: column;
+        position: relative;
+        left: 6%;
+    }
+    .card .image {
+        width: 90%;
+        height: 50%;
+        padding: 5%;
+        left: 5%;
+    }
+    .card-contents {
+        width: 100%;
+        height: 50%;
+        font-size: small;
+    }
+    .card-contents p {
+        padding-top: 0%;
+        height: 60%;
+        padding-left: 2%;
+    }
+    .card a {
+        padding-top: 3%;
+        left: 25%;
+    }
+    .card-contents h2 {
+        height: 10%;
+        padding-bottom: 8%;
+    }
+    .navbar a {
+        font-size: 12px;
+    }
+    .archive {
+        width: 2%;
+        padding: 0;
+    }
+}
+
+@media (max-width:755px) {
+    .archive {
+        width: 15%;
+    }
+    #others {
+        flex-direction: column;
+        min-height: 1200px;
+        height: 100%;
+        left: 0%;
+    }
+    #other-card {
+        width: 85%;
+        height: 30%;
+    }
+    #other-card .card-contents {
+        font-size: small;
+    }
+    #other-card p {
+        padding-top: 2%;
+        height: 75%;
+        padding-left: 3%;
+    }
+    #other-card a {
+        padding-bottom: 6%;
+        padding-left: 3%;
+    }
+    #other-card h2 {
+        height: 1%;
+    }
+}

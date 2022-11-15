@@ -759,6 +759,59 @@ footer div {
 }
 
 /* RESPONSIVE */
+
+@media only screen and (max-width: 1024px) {
+  #nav-loc-body {
+    display: none;
+  }
+
+  #contact-us-btn-body {
+    display: none;
+  }
+
+  nav {
+    width: 100vw;
+    height: 10vh;
+    grid-template-columns: 20% 60% 20%;
+  }
+
+  #logo {
+    padding-top: 20%;
+    padding-left: 20%;
+  }
+
+  #logo img {
+    width: 120%;
+  }
+
+  #resp-btn {
+    display: block;
+    padding-top: 40%;
+  }
+
+  #resp-btn i {
+    font-size: 36px;
+  }
+
+  #resp-nav {
+    height: 100vh;
+    width: 100vw;
+  }
+#sf-main-intro {
+    height: 60vh;
+    max-width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ #sf-main-img {
+    background-position: center center;
+    background-size: contain;
+    padding-right: 0%;
+    height: 80%;
+  }
+}
+
 @media only screen and (max-width: 512px) {
   #nav-loc-body {
     display: none;

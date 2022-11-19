@@ -85,66 +85,70 @@ body::-webkit-scrollbar-track {
 }
 
 .s1 {
-  animation: example 1s linear 0.2s 1 forwards;
-
+  animation: example 500ms linear 1200ms 1 forwards;
 }
 
 .s2 {
-  animation: example 1s linear 0.4s 1 forwards;
+  animation: example 500ms linear 1300ms 1 forwards;
 
 }
 
 .s3 {
-  animation: example 1s linear 0.6s 1 forwards;
+  animation: example 500ms linear 1400ms 1 forwards;
 }
 
 .s4 {
-  animation: example 1s linear 0.8s 1 forwards;
-
+  animation: example 500ms linear 1500ms 1 forwards;
 }
 
 .s5 {
-  animation: example 1s linear 1.0s 1 forwards;
+  animation: example 500ms linear 1600ms 1 forwards;
 
 }
 
 .s6 {
-  animation: example 1s linear 1.2s 1 forwards;
+  animation: example 500ms linear 1700ms 1 forwards;
 
 }
 
 .s7 {
-  animation: example 1s linear 1.4s 1 forwards;
+  animation: example 500ms linear 1800ms 1 forwards;
 
 }
 
 .s8 {
-  animation: example 1s linear 1.6s 1 forwards;
+  animation: example 500ms linear 1900ms 1 forwards;
 
 }
 
 .s9 {
-  animation: example 1s linear 1.8s 1 forwards;
+  animation: example 500ms linear 2000ms 1 forwards;
+
 }
 
 .f1 {
-  animation: example 1s linear 2s 1 forwards;
+  animation: example 500ms linear 1100ms 1 forwards;
+
 }
 
 .f2 {
-  animation: example 1s linear 2.2s 1 forwards;
+  animation: example 500ms linear 1200ms 1 forwards;
+
 }
 
 .f3 {
-  animation: example 1s linear 2.4s 1 forwards;
+  animation: example 500ms linear 1300ms 1 forwards;
+
 }
 
 .f4 {
-  animation: example 1s linear 2.6s 1 forwards;
+  animation: example 500ms linear 1400ms 1 forwards;
+
 }
 
 .f5 {
-  animation: example 1s linear 2.8s 1 forwards;
+  animation: example 500ms linear 1500ms 1 forwards;
+
 }
 
 .sf {

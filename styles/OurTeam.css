@@ -359,8 +359,8 @@ a {
 
 #hero-img {
     height: 100%;
-    width: 100vw;
-    background-size: contain;
+    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -797,7 +797,7 @@ footer div {
     
     #hero-img {
         height: 100%;
-        width: 100vw;
+        width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -911,7 +911,7 @@ footer div {
     
     #hero-img {
         height: 100%;
-        width: 100vw;
+        width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
     }
